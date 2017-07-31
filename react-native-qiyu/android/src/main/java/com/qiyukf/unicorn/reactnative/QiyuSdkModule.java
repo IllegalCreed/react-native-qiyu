@@ -33,10 +33,9 @@ public class QiyuSdkModule extends ReactContextBaseJavaModule {
     private static YSFOptions ysfOptions;
     private static UnreadChangeListener unreadChangeListener;
 
-    public QiyuSdkModule(ReactApplicationContext reactContext, String appKey, String appName) {
+    public QiyuSdkModule(ReactApplicationContext reactContext) {
         super(reactContext);
         sContext = reactContext;
-        init(appKey, appName);
     }
 
     @Override
@@ -57,7 +56,7 @@ public class QiyuSdkModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void registerAppId(String appKey, String appName) {
-        // 注册Package时已经初始化，这里什么也不做。为了和iOS接口保持统一
+        init(appKey, appName);
     }
 
     @ReactMethod
