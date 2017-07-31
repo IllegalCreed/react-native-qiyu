@@ -28,20 +28,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		370CA84F1F2F41FB00BEFD2A /* QYPOPConversationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPOPConversationManager.h; sourceTree = "<group>"; };
+		370CA8501F2F41FB00BEFD2A /* QYPOPCustomUIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPOPCustomUIConfig.h; sourceTree = "<group>"; };
+		370CA8511F2F41FB00BEFD2A /* QYPOPMessageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPOPMessageInfo.h; sourceTree = "<group>"; };
+		370CA8521F2F41FB00BEFD2A /* QYPOPSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPOPSDK.h; sourceTree = "<group>"; };
+		370CA8531F2F41FB00BEFD2A /* QYPOPSessionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPOPSessionInfo.h; sourceTree = "<group>"; };
+		370CA8541F2F41FB00BEFD2A /* QYPOPSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPOPSessionViewController.h; sourceTree = "<group>"; };
+		370CA8551F2F41FB00BEFD2A /* QYCommodityInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYCommodityInfo.h; sourceTree = "<group>"; };
+		370CA8561F2F41FB00BEFD2A /* QYConversationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYConversationManager.h; sourceTree = "<group>"; };
+		370CA8571F2F41FB00BEFD2A /* QYConversationManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYConversationManagerProtocol.h; sourceTree = "<group>"; };
+		370CA8581F2F41FB00BEFD2A /* QYCustomActionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYCustomActionConfig.h; sourceTree = "<group>"; };
+		370CA8591F2F41FB00BEFD2A /* QYCustomUIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYCustomUIConfig.h; sourceTree = "<group>"; };
+		370CA85A1F2F41FB00BEFD2A /* QYHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYHeaders.h; sourceTree = "<group>"; };
+		370CA85B1F2F41FB00BEFD2A /* QYMessageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYMessageInfo.h; sourceTree = "<group>"; };
+		370CA85C1F2F41FB00BEFD2A /* QYPushMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPushMessage.h; sourceTree = "<group>"; };
+		370CA85D1F2F41FB00BEFD2A /* QYSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSDK.h; sourceTree = "<group>"; };
+		370CA85E1F2F41FB00BEFD2A /* QYSessionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSessionInfo.h; sourceTree = "<group>"; };
+		370CA85F1F2F41FB00BEFD2A /* QYSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSessionViewController.h; sourceTree = "<group>"; };
+		370CA8601F2F41FB00BEFD2A /* QYSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSource.h; sourceTree = "<group>"; };
+		370CA8611F2F41FB00BEFD2A /* QYUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYUserInfo.h; sourceTree = "<group>"; };
 		E62D055E1E10ED84004AE8BB /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 		E62D055F1E10ED84004AE8BB /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libevent.a; sourceTree = "<group>"; };
 		E632A2491D757FCD001BCAE0 /* libRCTQiYu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTQiYu.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E632A24C1D757FCD001BCAE0 /* RCTQiYu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTQiYu.h; sourceTree = "<group>"; };
 		E632A24E1D757FCD001BCAE0 /* RCTQiYu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTQiYu.m; sourceTree = "<group>"; };
-		E632A2571D758012001BCAE0 /* QYCommodityInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYCommodityInfo.h; sourceTree = "<group>"; };
-		E632A2581D758012001BCAE0 /* QYConversationManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYConversationManagerProtocol.h; sourceTree = "<group>"; };
-		E632A2591D758012001BCAE0 /* QYCustomActionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYCustomActionConfig.h; sourceTree = "<group>"; };
-		E632A25A1D758012001BCAE0 /* QYCustomUIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYCustomUIConfig.h; sourceTree = "<group>"; };
-		E632A25B1D758012001BCAE0 /* QYHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYHeaders.h; sourceTree = "<group>"; };
-		E632A25C1D758012001BCAE0 /* QYSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSDK.h; sourceTree = "<group>"; };
-		E632A25D1D758012001BCAE0 /* QYSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSessionViewController.h; sourceTree = "<group>"; };
-		E632A25E1D758012001BCAE0 /* QYSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSource.h; sourceTree = "<group>"; };
-		E632A25F1D758012001BCAE0 /* QYUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYUserInfo.h; sourceTree = "<group>"; };
 		E632A2601D758012001BCAE0 /* libQYSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQYSDK.a; sourceTree = "<group>"; };
 		E632A2611D758012001BCAE0 /* QYResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QYResource.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +70,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		370CA84E1F2F41FB00BEFD2A /* POP */ = {
+			isa = PBXGroup;
+			children = (
+				370CA84F1F2F41FB00BEFD2A /* QYPOPConversationManager.h */,
+				370CA8501F2F41FB00BEFD2A /* QYPOPCustomUIConfig.h */,
+				370CA8511F2F41FB00BEFD2A /* QYPOPMessageInfo.h */,
+				370CA8521F2F41FB00BEFD2A /* QYPOPSDK.h */,
+				370CA8531F2F41FB00BEFD2A /* QYPOPSessionInfo.h */,
+				370CA8541F2F41FB00BEFD2A /* QYPOPSessionViewController.h */,
+			);
+			path = POP;
+			sourceTree = "<group>";
+		};
 		E632A2401D757FCD001BCAE0 = {
 			isa = PBXGroup;
 			children = (
@@ -101,15 +124,20 @@
 		E632A2561D758012001BCAE0 /* ExportHeaders */ = {
 			isa = PBXGroup;
 			children = (
-				E632A2571D758012001BCAE0 /* QYCommodityInfo.h */,
-				E632A2581D758012001BCAE0 /* QYConversationManagerProtocol.h */,
-				E632A2591D758012001BCAE0 /* QYCustomActionConfig.h */,
-				E632A25A1D758012001BCAE0 /* QYCustomUIConfig.h */,
-				E632A25B1D758012001BCAE0 /* QYHeaders.h */,
-				E632A25C1D758012001BCAE0 /* QYSDK.h */,
-				E632A25D1D758012001BCAE0 /* QYSessionViewController.h */,
-				E632A25E1D758012001BCAE0 /* QYSource.h */,
-				E632A25F1D758012001BCAE0 /* QYUserInfo.h */,
+				370CA84E1F2F41FB00BEFD2A /* POP */,
+				370CA8551F2F41FB00BEFD2A /* QYCommodityInfo.h */,
+				370CA8561F2F41FB00BEFD2A /* QYConversationManager.h */,
+				370CA8571F2F41FB00BEFD2A /* QYConversationManagerProtocol.h */,
+				370CA8581F2F41FB00BEFD2A /* QYCustomActionConfig.h */,
+				370CA8591F2F41FB00BEFD2A /* QYCustomUIConfig.h */,
+				370CA85A1F2F41FB00BEFD2A /* QYHeaders.h */,
+				370CA85B1F2F41FB00BEFD2A /* QYMessageInfo.h */,
+				370CA85C1F2F41FB00BEFD2A /* QYPushMessage.h */,
+				370CA85D1F2F41FB00BEFD2A /* QYSDK.h */,
+				370CA85E1F2F41FB00BEFD2A /* QYSessionInfo.h */,
+				370CA85F1F2F41FB00BEFD2A /* QYSessionViewController.h */,
+				370CA8601F2F41FB00BEFD2A /* QYSource.h */,
+				370CA8611F2F41FB00BEFD2A /* QYUserInfo.h */,
 			);
 			path = ExportHeaders;
 			sourceTree = "<group>";
