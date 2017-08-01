@@ -14,18 +14,10 @@ import java.util.List;
  * Created by hzwangchenyan on 2016/9/8.
  */
 public class QiyuSdkPackage implements ReactPackage {
-    private String appKey;
-    private String appName;
-
-    public QiyuSdkPackage(String appKey, String appName) {
-        this.appKey = appKey;
-        this.appName = appName;
-    }
-
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
-        modules.add(new QiyuSdkModule(reactContext, appKey, appName));
+        modules.add(new QiyuSdkModule(reactContext));
         return modules;
     }
 

@@ -149,9 +149,9 @@ RCT_EXPORT_METHOD(openServiceWindow:(NSDictionary*)paramDict){
     if (commodityInfo) {
         sessionVC.commodityInfo = commodityInfo;
     }
-    sessionVC.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStyleBordered target:self action:@selector(back:)];
-    sessionVC.hidesBottomBarWhenPushed = YES;
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:sessionVC];
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemStop target:self action:@selector(back:)];
+    [sessionVC.navigationItem setLeftBarButtonItem:backButton];
     [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:nav animated:YES completion:nil];
 }
 
