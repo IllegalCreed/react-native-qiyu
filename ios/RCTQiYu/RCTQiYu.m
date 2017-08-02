@@ -152,11 +152,15 @@ RCT_EXPORT_METHOD(openServiceWindow:(NSDictionary*)paramDict){
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:sessionVC];
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemStop target:self action:@selector(back:)];
     [sessionVC.navigationItem setLeftBarButtonItem:backButton];
-    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:nav animated:YES completion:nil];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:nav animated:YES completion:nil];
+    });
 }
 
 - (void)back:(id)sender {
-    [[UIApplication sharedApplication].keyWindow.rootViewController dismissViewControllerAnimated:YES completion:nil];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[UIApplication sharedApplication].keyWindow.rootViewController dismissViewControllerAnimated:YES completion:nil];
+    });
 }
 
 RCT_EXPORT_METHOD(logout) {
